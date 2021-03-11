@@ -1,12 +1,8 @@
-.nav {
-    background-color: rgb(111, 245, 255)
-}
-
-a {
+.nav-link {
     text-decoration: none;
     color: white
 }
- a:hover {
+ .nav-link:hover {
     text-decoration: underline;
     color: white
 }

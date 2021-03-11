@@ -1,0 +1,6 @@
+.jumbotron {
+    background-image: url(lib.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 14em;
+}

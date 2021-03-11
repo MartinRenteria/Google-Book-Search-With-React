@@ -6,10 +6,10 @@ import Nav from "react-bootstrap/Nav";
 
 function Navi() {
     return (
-<Navbar bg="dark" expand="lg" variant="primary" >
+<Navbar variant="dark" bg="dark" expand="lg">
   <Navbar.Brand href="#home">Google Books</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
+  <Navbar.Collapse variant="light" id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="#home">Search</Nav.Link>
       <Nav.Link href="#link">Saved</Nav.Link>
