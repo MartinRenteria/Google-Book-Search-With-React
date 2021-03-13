@@ -14,9 +14,9 @@
 
 ## **Screenshot**
 
-Here is a photo of the Progressive Budget application.
+Here is a photo of the Progressive Budget application and it's features.
 
-![Progressive-Budget](client/public/img/BookSearch.png)
+![Progressive-Budget](client/public/img/BookSearch.png)(client/public/img/SonicSaved.png)(client/public/img/GooglePlayStore.png)
 
 # Link
 Look at the live version through Heroku [here.](https://google-books-react-api.herokuapp.com/)
