@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/NavBar";
 import Header from "./components/Header";
-import Search from "./components/Form";
+import SearchBar from "./components/Form";
 
 class App extends Component {
  
@@ -13,7 +13,7 @@ class App extends Component {
         <div>
           <Navbar />
           <Header />
-          <Search />
+          <SearchBar />
         </div>
       </Router>
     )
