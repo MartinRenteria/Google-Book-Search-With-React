@@ -1,13 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/NavBar";
 import SavedBooks from "./pages/SavedBooks";
 import SearchBooks from "./pages/SearchBooks";
 
-class App extends Component {
+function App() {
  
-  render() {
     return (
       <Router>
         <div>
@@ -21,6 +20,5 @@ class App extends Component {
       </Router>
     )
   };
-};
 
 export default App;

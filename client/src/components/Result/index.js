@@ -1,7 +1,7 @@
 import React from "react";
 import {Row, Col} from "../Grid"
 
-const SearchResult = props => {
+const Result = props => {
     return (props.books.length === 0) ? (
         <div className="card">
             <div className="card-body player">
@@ -56,4 +56,4 @@ const SearchResult = props => {
             </div>
         )
 }
-export default SearchResult
+export default Result

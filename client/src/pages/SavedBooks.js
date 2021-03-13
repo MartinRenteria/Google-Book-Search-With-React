@@ -5,7 +5,7 @@ import Jumbotron from "../components/Header";
 import { Container} from "../components/Grid";
 import SavedBooks from "../components/SavedBooks"
 
-class SaveBook extends Component {
+class SavedBook extends Component {
     state = {
         savedBooks: []
     };
@@ -38,4 +38,4 @@ class SaveBook extends Component {
 
 
 
-export default SaveBook 
+export default SavedBook 

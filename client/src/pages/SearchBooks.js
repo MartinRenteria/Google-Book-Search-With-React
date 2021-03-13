@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import API from "../utils/API";
 import Jumbotron from "../components/Header";
 import { Container, Row, Col } from "../components/Grid";
-import SearchForm from "../components/Form";
-import SearchResult from "../components/Result";
+import Form from "../components/Form";
+import Result from "../components/Result";
 
 class SearchBooks extends Component {
 	state = {
@@ -68,7 +68,7 @@ class SearchBooks extends Component {
 				<Container>
 					<Row>
 						<Col size="12">
-							<SearchForm
+							<Form
 								handleFormSubmit={this.handleFormSubmit}
 								handleInputChange={this.handleInputChange}
 							/>
@@ -77,7 +77,7 @@ class SearchBooks extends Component {
 				</Container>
 				<br />
 				<Container>
-					<SearchResult books={this.state.books} handleSavedButton={this.handleSavedButton} />
+					<Result books={this.state.books} handleSavedButton={this.handleSavedButton} />
 				</Container>
 			</Container>
 		);
