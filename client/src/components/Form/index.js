@@ -1,20 +1,27 @@
-import React from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import './style.css'
+import React from "react";
+import "./style.css";
 
-function Search(props) {
+const SearchForm = props => {
     return (
-<Form>
-  <Form.Group controlId="formBasicSearch">
-    <Form.Label className="Search-text">Search for and save Books of Interest</Form.Label>
-    <Form.Control type="text" placeholder="Search for a book" />
-  </Form.Group>
-  <Button onclick={props.handleFormSubmit} variant="primary" type="submit">
-    Search
-  </Button>
-</Form>
+        <form>
+            <div className="form-group">
+                <label className="Search-text">Search For Book</label>
+                <br></br>
+                <input className="col-12 form-control"
+                    value={props.search}
+                    type="text"
+                    name="searchBook"
+                    placeholder="Enter Book's Name"
+                    onChange={props.handleInputChange}
+                />
+            </div>
+            <button type="submit" className="btn btn-primary" onClick={props.handleFormSubmit}>
+                Submit
+                </button>
+        </form>
     )
 }
 
-export default Search;
+
+
+export default SearchForm

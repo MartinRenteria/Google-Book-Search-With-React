@@ -1,15 +1,14 @@
 import React from "react";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Container from "react-bootstrap/Container";
 import "./style.css"
 
-function head() {
+function Header({ children }) {
     return (
-        <Jumbotron fluid>
-        <Container>
-        </Container>
-      </Jumbotron>
-    )
+        <div className="jumbotron jumbotron-fluid d-flex align-items-center">
+            <div className="container text-center">
+                {children}
+            </div>
+        </div>
+    );
 }
 
-export default head;
+export default Header;

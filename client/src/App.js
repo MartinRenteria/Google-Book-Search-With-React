@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/NavBar";
-import Header from "./components/Header";
-import SearchBar from "./components/Form";
+
+import SearchBooks from "./pages/SearchBooks";
 
 class App extends Component {
  
@@ -12,8 +12,9 @@ class App extends Component {
       <Router>
         <div>
           <Navbar />
-          <Header />
-          <SearchBar />
+          <Switch>
+          <Route exact path="/" component={SearchBooks} />
+          </Switch>
         </div>
       </Router>
     )
