@@ -8,7 +8,7 @@ A MERN project made with the Google Books API with a search and save functionali
 ## Table of Contents
 
 * [Screenshot](#screenshot)
-* [Link](#link)
+* [Link to project](#link)
 * [License](#license)
 * [Questions](#questions)
 
@@ -20,7 +20,7 @@ Here is a photo of the Progressive Budget application and it's features.
 ![](client/public/img/SonicSaved.png)
 ![](client/public/img/GooglePlayStore.png)
 
-# Link
+# Link to project 
 Look at the live version through Heroku [here.](https://google-books-react-api.herokuapp.com/)
 
 
