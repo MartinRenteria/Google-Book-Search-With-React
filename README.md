@@ -31,4 +31,4 @@ Look at the live version through Heroku [here.](https://google-books-react-api.h
 
 ## **Questions**
 
-Please contact <renteriamp96@gmail.com> if you have any questions.
+Please contact <renteriamp96@gmail.com> if you have any questions and be sure to check out my other project!
