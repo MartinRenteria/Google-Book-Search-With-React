@@ -30,7 +30,9 @@ A MERN project made with the Google Books API with a search and save functionali
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-npm i
+Clone the Repo
+Open the Repo
+run npm i
 npm start
 ```
 
