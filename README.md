@@ -27,13 +27,13 @@ A MERN project made with the Google Books API with a search and save functionali
 
 ## Installation
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies and devDependencies within the terminal and start the server.
 
 ```sh
 Clone the Repo
 Open the Repo
 run npm i
-run npm start
+run npm start 
 ```
 
 ## **Screenshot**
@@ -55,4 +55,4 @@ Look at the live version through Heroku [here.](https://google-books-react-api.h
 
 ## **Questions**
 
-Please contact me at <renteriamp96@gmail.com> if you have any questions and be sure to check out my other projects!
+Please contact me at <renteriamp96@gmail.com>. if you have any questions and be sure to check out my other projects!
