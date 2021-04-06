@@ -14,6 +14,16 @@ A MERN project made with the Google Books API with a search and save functionali
 * [License](#license)
 * [Questions](#questions)
 
+## Technology's used
+
+- [ReactJS] - The framework used for the project.
+- [React-Bootstrap] - For CSS styling.
+- [MongoDB] - Database used for saving saved book information.
+- [Mongoose] - For creating MongoDB schemas in conjunction with MongoDB
+- [Express] -  Back-end server for rendering API calls. 
+- [node.js] - Evented I/O for the backend.
+- [Axios] - For grabbing API routes.
+- [Heroku] - For deployment.
 
 ## Installation
 
