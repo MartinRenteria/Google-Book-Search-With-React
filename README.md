@@ -33,7 +33,7 @@ Install the dependencies and devDependencies and start the server.
 Clone the Repo
 Open the Repo
 run npm i
-npm start
+run npm start
 ```
 
 ## **Screenshot**
