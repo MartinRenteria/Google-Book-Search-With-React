@@ -7,7 +7,7 @@ A MERN project made with the Google Books API with a search and save functionali
 
 ## Table of Contents
 
-* [Technology](#Techs Used)
+* [Technology](#Technology)
 * [Installation](#Installation)
 * [Screenshot](#screenshot)
 * [Link to project](#link)
