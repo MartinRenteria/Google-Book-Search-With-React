@@ -14,7 +14,7 @@ A MERN project made with the Google Books API with a search and save functionali
 * [License](#license)
 * [Questions](#questions)
 
-## Technology's used
+## Technology
 
 - [ReactJS] - The framework used for the project.
 - [React-Bootstrap] - For CSS styling.
